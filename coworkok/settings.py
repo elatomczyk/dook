@@ -119,14 +119,14 @@ PIPELINE_COMPILERS = (
 PIPELINE_CSS = {
     'dashboard': {
         'source_filenames': (
-            'cowork/less/dashboard.less',
+            'static/cowork/less/dashboard.less',
         ),
-        'output_filename': 'cowork/less/dashboard.css'
+        'output_filename': 'static/cowork/less/dashboard.css'
     },
     'accounts': {
         'source_filenames': (
-            'accounts/less/accounts.less',
+            'static/accounts/less/accounts.less',
         ),
-        'output_filename': 'accounts/less/accounts.css'
+        'output_filename': 'static/accounts/less/accounts.css'
     }
 }
